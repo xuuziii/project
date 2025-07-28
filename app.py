@@ -32,7 +32,7 @@ with col1:
     occupation = st.selectbox('Occupation', ('Corporate', 'Business', 'Student', 'Housewife', 'Others'), key='occupation')
     self_employed = st.selectbox('Are you self-employed?', ('No', 'Yes'), key='self_employed')
     family_history = st.selectbox('Do you have a family history of mental illness?', ('No', 'Yes'), key='family_history')
-    days_indoors = st.selectbox('How much time do you spend indoors?', ('1-14 days', '15-30 days', '31-60 days', 'More than 60 days', 'Go out Every day'), key='days_indoors')
+    days_indoors = st.selectbox('How much time do you spend outdoors?', ('1-14 days', '15-30 days', '31-60 days', 'More than 60 days', 'Go out Every day'), key='days_indoors')
     growing_stress = st.selectbox('Are you experiencing growing stress?', ('Yes', 'No', 'Maybe'), key='growing_stress')
     changes_habits = st.selectbox('Have you experienced changes in your habits?', ('Yes', 'No', 'Maybe'), key='changes_habits')
 
